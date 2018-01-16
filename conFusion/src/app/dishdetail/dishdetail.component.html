@@ -25,12 +25,12 @@
   </div>
 
   <div fxFlex="40">
-    <md-card>
+    <md-card *ngIf="dish">
       <md-card-title>
         <h4>Comments</h4>
       </md-card-title>
       <md-card-content>
-        <md-list *ngIf="dish">
+        <md-list>
           <md-list-item *ngFor="let c of dish.comments">
             <p md-line>
               <span>{{c.comment}}</span>
