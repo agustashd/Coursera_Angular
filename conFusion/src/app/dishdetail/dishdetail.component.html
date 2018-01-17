@@ -32,15 +32,9 @@
       <md-card-content>
         <md-list>
           <md-list-item *ngFor="let c of dish.comments">
-            <p md-line>
-              <span>{{c.comment}}</span>
-            </p>
-            <p md-line>
-              <span>{{c.rating}} Stars</span>
-            </p>
-            <p md-line>
-              <span>-- {{c.author}} {{c.date | date:mediumDate}}</span>
-            </p>
+            <p md-line><span>{{c.comment}}</span></p>
+            <p md-line><span>{{c.rating}} Stars</span></p>
+            <p md-line><span>-- {{c.author}} {{c.date | date:mediumDate}}</span></p>
           </md-list-item>
         </md-list>
       </md-card-content>
