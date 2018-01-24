@@ -23,12 +23,12 @@ export class ContactComponent implements OnInit {
   validationMessages = {
     'firstname': {
       'required': 'First Name is required.',
-      'minlenght': 'First Name must be at least 2 characters long',
+      'minlength': 'First Name must be at least 2 characters long',
       'maxlength': 'First Name cannot be more than 25 characters long'
     },
-    'lasttname': {
+    'lastname': {
       'required': 'Last Name is required.',
-      'minlenght': 'Last Name must be at least 2 characters long',
+      'minlength': 'Last Name must be at least 2 characters long',
       'maxlength': 'Last Name cannot be more than 25 characters long'
     },
     'telnum': {
@@ -83,7 +83,6 @@ export class ContactComponent implements OnInit {
 
   onSubmit() {
     this.feedback = this.feedbackForm.value;
-    console.log(this.feedback);
     this.feedbackForm.reset({
       firstname: '',
       lastname: '',

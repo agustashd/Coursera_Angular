@@ -79,16 +79,16 @@
         </p>
         <table class="form-size">
           <td>
-          <md-slide-toggle formControlName="agree">May we contact you?</md-slide-toggle>
+            <md-slide-toggle formControlName="agree">May we contact you?</md-slide-toggle>
           </td>
           <td>
-          <md-select placeholder="How?" formControlName="contacttype">
-            <md-option *ngFor="let ctype of contactType" [value]="ctype">
-              {{ ctype }}
-            </md-option>
-          </md-select>
+            <md-select placeholder="How?" formControlName="contacttype">
+              <md-option *ngFor="let ctype of contactType" [value]="ctype">
+                {{ ctype }}
+              </md-option>
+            </md-select>
           </td>
-          </table>
+        </table>
         <p>
           <md-input-container class="full-width">
             <textarea mdInput formControlName="message" placeholder="Your Feedback" rows=12></textarea>
