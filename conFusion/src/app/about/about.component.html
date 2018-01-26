@@ -57,7 +57,7 @@
       <h2>Corporate Leadership</h2>
       <md-list *ngIf="leaders">
         <md-list-item *ngFor="let l of leaders">
-          <img md-list-avatar src="{{l.image}}" alt="{{l.name}}">
+          <img md-list-avatar src="{{BaseURL + l.image}}" alt="{{l.name}}">
           <h4 md-line><span>{{l.name}} {{l.abbr}}</span></h4>
           <p md-line><span>{{l.designation}}</span></p>
           <p md-line><span>{{l.description}}</span></p>
