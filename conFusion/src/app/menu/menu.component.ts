@@ -13,11 +13,11 @@ import { flyInOut, expand } from '../animations/app.animation';
   host: {
     '[@flyInOut]': 'true',
     'style': 'display: block;'
-  },
-  animations: [
-    flyInOut(),
-    expand()
-  ]
+    },
+    animations: [
+      flyInOut(),
+      expand()
+    ]
 })
 export class MenuComponent implements OnInit {
 

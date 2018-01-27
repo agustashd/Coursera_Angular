@@ -15,16 +15,16 @@ export function visibility() {
 }
 
 export function flyInOut() {
-    return trigger('lfyInOut', [
+    return trigger('flyInOut',[
         state('*', style({ opacity: 1, transform: 'translateX(0)'})),
         transition(':enter', [
-            style({ transform: 'translateX(-100%)', opacity: 0 }),
+            style({ transform: 'translateX(-100%)', opacity:0 }),
             animate('500ms ease-in')
         ]),
         transition(':leave', [
-            animate('500ms ease-out', style({ transform: 'translateX(100%)', opacity: 0 }))
+            animate('500ms ease-out', style({ transform: 'translateX(100%)', opacity: 0}))
         ])
-    ])
+    ]);
 }
 
 export function expand() {
@@ -34,6 +34,5 @@ export function expand() {
             style({ transform: 'translateX(-50%)', opacity: 0 }),
             animate('200ms ease-in',style({ opacity: 1, transform: 'translateX(0)' }))
         ])
-    ]
-    })
+    ]);
 }
