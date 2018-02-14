@@ -1,5 +1,5 @@
 # Coursera - Front-End JavaScript Frameworks: Angular
 
-Link: [https://www.coursera.org/learn/angular/] (Learn Angular)
+Course Link: [Learn Angular](https://www.coursera.org/learn/angular/)
 
-Certificate Link: [https://www.coursera.org/account/accomplishments/certificate/TYDKM6LYQ9JU] (Front-End JavaScript Frameworks: Angular)
+Certificate of completion Link: [Front-End JavaScript Frameworks: Angular](https://www.coursera.org/account/accomplishments/certificate/TYDKM6LYQ9JU)
